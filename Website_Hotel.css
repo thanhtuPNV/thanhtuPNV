@@ -1,0 +1,665 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+.Header {
+    width: 100%;
+}
+
+.container-lg {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-sm {
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+/*  */
+
+#header {
+    height: 56px;
+}
+
+#nav,
+.subnav {
+    list-style: none;
+}
+
+#nav {
+    margin-left: 80px;
+}
+
+#nav>li {
+    display: inline-block;
+}
+
+#nav>li {
+    position: relative;
+}
+
+#nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav li a {
+    padding: 0 24px;
+    line-height: 46px;
+    /* font-size: 30px; */
+    text-decoration: none;
+    display: block;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav li:hover>a,
+#nav .subnav li:hover a {
+    color: #000;
+    background-color: white;
+}
+
+#nav .nav-icon {
+    font-size: 12px;
+}
+
+#nav .subnav {
+    min-width: 160px;
+    top: 100%;
+    left: 0;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0, 0, 0.3);
+    /* list-style: none; */
+    /* display: none; */
+}
+
+#nav .subnav a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 38px;
+}
+
+.modal-dialog>.modal-content>.modal-header>.close {
+    color: #A20053;
+}
+
+.modal-dialog>.modal-content>.modal-header>a {
+    color: #A20053;
+    text-decoration: none;
+}
+
+.modal-dialog>.modal-content>.modal-header>:hover.close {
+    color: gray;
+}
+
+.modal-dialog>.modal-content>.modal-header>a:hover b {
+    color: gray;
+}
+
+
+/*  */
+
+.header-Make-a-reservation {
+    position: absolute;
+    width: 273px;
+    height: 395px;
+    margin-left: 1090px;
+    margin-top: 30px;
+}
+
+.header-Make-a-reservation>.Make-a-reservation-on {
+    background-color: #62053F;
+    height: 45px;
+}
+
+#head-lining {
+    color: white;
+    position: absolute;
+    width: 136px;
+    height: 23px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.header-Make-a-reservation>.Make-a-reservation-under {
+    background-color: #74135a;
+    height: 365px;
+    opacity: 0.9;
+}
+
+#inner-frame {
+    position: absolute;
+    width: 233px;
+    height: 290px;
+    top: 65px;
+    left: 20px;
+}
+
+#inner-frame>#head-lining1 {
+    position: absolute;
+    height: 40px;
+    width: 100%;
+}
+
+.head-lining1-btn {
+    background-color: #8E1A64;
+    width: 100%;
+    height: 40px;
+    border: 0px;
+    outline: 0px;
+}
+
+.head-lining1-collapse {
+    background-color: white;
+    width: 235px;
+    height: 250px;
+    border: 1px solid gray;
+    position: absolute;
+    top: 105px;
+    left: 20px;
+}
+
+#head-lining1-text {
+    position: absolute;
+    width: 95%;
+    height: 40px;
+    top: 5px;
+    left: 5px;
+}
+
+#head-lining1-text>input {
+    width: 100%;
+    height: 35px;
+    outline: 0;
+}
+
+#head-lining1-btn1 a {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+}
+
+#head-lining1-btn2 a {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+#head-lining1-btn3 a {
+    position: absolute;
+    top: 117px;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+#head-lining1-btn4 a {
+    position: absolute;
+    top: 154px;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.head-lining1-overflow>a1:hover>p {
+    background-color: rgb(204, 202, 202);
+}
+
+.head-lining1-overflow>a2:hover>p {
+    background-color: rgb(204, 202, 202);
+}
+
+.head-lining1-overflow>a3:hover>p {
+    background-color: rgb(204, 202, 202);
+}
+
+.head-lining1-overflow>a4:hover>p {
+    background-color: rgb(204, 202, 202);
+}
+
+.head-lining1-overflow>a5:hover p {
+    background-color: rgb(204, 202, 202);
+}
+
+.head-lining1-overflow>a6:hover p {
+    background-color: rgb(204, 202, 202);
+}
+
+.head-lining1-overflow>a7:hover p {
+    background-color: rgb(204, 202, 202);
+}
+
+.head-lining1-overflow>a8:hover p {
+    background-color: rgb(204, 202, 202);
+}
+
+.head-lining1-overflow>a9:hover p {
+    background-color: rgb(204, 202, 202);
+}
+
+.head-lining1-overflow>a10:hover p {
+    background-color: rgb(204, 202, 202);
+}
+
+
+/* #8E1A64 */
+
+#head-lining2 {
+    position: absolute;
+    height: 110px;
+    width: 100%;
+    top: 50px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+}
+
+#head-lining2 #col1 {
+    background-color: #942B69;
+    width: 112px;
+    height: 100%;
+    float: left;
+    position: absolute;
+}
+
+#head-lining2 #col2 {
+    position: absolute;
+    background-color: #942B69;
+    height: 100%;
+    width: 112px;
+    left: 121px;
+}
+
+#head-lining3 {
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    top: 170px;
+}
+
+.head-lining3-row1 .col {
+    color: white;
+}
+
+.head-lining3-row2>.btn>.col-4 {
+    width: 59px;
+    height: 36px;
+    position: absolute;
+    top: 24px;
+}
+
+.head-lining3-row2 .head-lining3-select {
+    margin-left: -16px;
+    width: 60px;
+    height: 100%;
+    background-color: #8E1A64;
+    color: white;
+}
+
+.head-lining3-row2 .head-lining3-select option {
+    background-color: white;
+    color: black;
+}
+
+#head-lining4 {
+    position: absolute;
+    background-color: #8E1A64;
+    height: 40px;
+    width: 100%;
+    top: 240px;
+}
+
+#head-lining4 input[type="text"] {
+    width: 100%;
+    height: 100%;
+    background-color: #8E1A64;
+    outline: 0;
+    border: 0;
+}
+
+#head-lining5 {
+    position: absolute;
+    background-color: #810053;
+    height: 40px;
+    width: 100%;
+    top: 100%;
+}
+
+#head-lining5:hover>a {
+    background-color: #9A3375;
+    height: 100%;
+}
+
+
+/*  */
+
+.back-photo1 {
+    background-image: url(./Anh_Hotel/Ảnh_phía_sau_1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 42vh;
+    background-attachment: fixed;
+}
+
+.back-photo2 {
+    background-image: url(./Anh_Hotel/Ảnh_phía_sau_2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-attachment: fixed;
+}
+
+
+/* lịch */
+
+
+/* #col1 :active .lich {
+    opacity: 1;
+} */
+
+.lich {
+    /* opacity: 0; */
+    margin-top: -25vh;
+}
+
+.month {
+    padding: 70px 25px;
+    width: 60vh;
+    background: #810053;
+    text-align: center;
+    margin-left: -65vh;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin-left: -65vh;
+    width: 60vh;
+    /* margin: 0; */
+    padding: 10px 0;
+    background-color: #7c1959;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: white;
+    text-align: center;
+}
+
+.days {
+    margin-left: -65vh;
+    width: 60vh;
+    padding: 10px 0;
+    background: #8E1A65;
+    /* margin: 0; */
+    margin-top: -2vh;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #810053;
+    color: white !important
+}
+
+
+/* Add media queries for smaller screens */
+
+@media screen and (max-width:720px) {
+    .weekdays li,
+    .days li {
+        width: 13.1%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li,
+    .days li {
+        width: 12.5%;
+    }
+    .days li .active {
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li,
+    .days li {
+        width: 12.2%;
+    }
+}
+
+
+/* content-on and under */
+
+.content-on {
+    background-color: white;
+    width: 100%;
+    height: 510px;
+}
+
+.content-under1 {
+    background-color: white;
+    width: 100%;
+    height: 1050px;
+}
+
+.content-under2 {
+    background-color: #F6F2F0;
+    width: 100%;
+    height: 2370px;
+}
+
+
+/* content-on and under */
+
+.container:hover .btn-chung {
+    background-color: #810053;
+    color: white;
+}
+
+
+/* content-container-con and p */
+
+.content-container-p {
+    /* background-color: #810053; */
+    width: 100%;
+    height: 340px;
+}
+
+.content-container-con {
+    /* background-color: gray; */
+    width: 100%;
+    height: 620px;
+    position: absolute;
+    top: 343vh;
+}
+
+.content-container-con .row .col img {
+    width: 350px;
+}
+
+.content-container-con .row .col p {
+    font-size: 25px;
+}
+
+.content-container-con .row-p .col-p p {
+    font-size: 17px;
+}
+
+.content-container-con .row-p1 .col a {
+    font-size: 16px;
+    color: #62053F;
+}
+
+.content-container-con .row-p2 .col .row .col p {
+    font-size: 23px;
+}
+
+.content-container-con .row-p2 .col .row .col:hover a {
+    background-color: #74135a;
+    color: white;
+}
+
+
+/* content-under-img2 */
+
+.content-under-img2 {
+    background-color: white;
+    height: 750px;
+}
+
+.under-img2-p {
+    height: 250px;
+}
+
+.under-img2-p p {
+    position: relative;
+    top: 90px;
+}
+
+.under-img2-img {
+    height: 350px;
+}
+
+.under-img2-img .row .col img {
+    width: 350px;
+    /* height: 310px; */
+}
+
+.under-img2-btn a {
+    border: 1px solid #62053F;
+    color: #74135a;
+}
+
+.under-img2-btn:hover a {
+    background-color: #62053F;
+    color: white;
+}
+
+
+/* content-under-img2 */
+
+
+/* footer1 and 2 */
+
+.footer1 {
+    background-color: #FCFAF8;
+    height: 80px;
+}
+
+.footer2 {
+    background-color: #FCFAF8;
+    border-top: 1px solid gray;
+    height: 290px;
+}
+
+
+/*  */
+
+.footer1 .container .row {
+    top: 30px;
+    position: relative;
+}
+
+.footer1 .container .row .col1 .row-col .cola {
+    float: left;
+}
+
+.footer1 .container .row .col1 .row-col .cola a {
+    padding-left: 20px;
+    color: #74135a;
+}
+
+.footer1 .container .row .col1 {
+    width: 70%;
+}
+
+.footer1 .container .row .col2 {
+    width: 30%;
+}
+
+.footer1 .container .row .col2 i {
+    color: #74135a;
+    font-size: 35px;
+}
+
+
+/*  */
+
+.footer2 .container .row {
+    /* background-color: #62053F; */
+    width: 75%;
+    height: 180px;
+    position: relative;
+    top: 25px;
+}
+
+.footer2 .container .row .coll input {
+    border: 0;
+    outline: 0;
+}
+
+.footer2 .container .row .coll .btn {
+    background-color: #810053;
+    color: white;
+    position: relative;
+    top: -10px;
+}
+
+.footer2 .container .row .col-7 p {
+    color: #7c1959;
+}
+
+.footer2 .container .row .col-2 p {
+    color: #7c1959;
+}
+
+
+/* footer1 and 2*/
